@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+}
+
+body {
+    background-color: wheat
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.card {
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.front img {
+    height: 100%;
+}
+
+.back {
+    background-color: white;
+}
+
+.back-content {
+    color: goldenrod;
+    text-align: center;
+    width: 100%;
+}
+
+.sm {
+    margin: 2rem 0;
+}
+
+.sm a {
+    display: inline-block;
+    width: 2.1rem;
+    height: 2.1rem;
+    font-size: 1.1rem;
+    color: black;
+}
